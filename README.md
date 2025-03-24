@@ -84,3 +84,7 @@ Execute the commands
 
     #outcome
 ```
+---
+## License
+
+[MIT](./LICENSE)
