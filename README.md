@@ -46,3 +46,41 @@ For the training of the models we were using an i7 8750H, 22 GB RAM and NVIDIA 1
 ![image](https://github.com/user-attachments/assets/d3a9e75f-a968-4269-b527-bba9444be825)
 
 In a final release of the whole system, we would only use one model. The one with the best results, here we get access to almost every model trained. Those with results under 0.60<F1 are not included in the final architecture.
+
+## Execute
+### Classic models 
+```bash
+
+    cd loaders
+    pip install scikit-learn==1.4.2
+    pip install torch
+    python -m spacy download es_core_news_sm
+    touch clinicNote.txt
+    nano clinicNote.txt
+    #paste your clinic note example
+
+    python ClassicModels_Loaders.py clinicNote.txt
+
+    #outcome
+```
+### RoBERTa model
+
+Download the model from [SharePoint](https://urjc-my.sharepoint.com/:u:/g/personal/a_dekeno_2020_alumnos_urjc_es/EYLhSrHGwqxFnBgPQKH6yokBnFagV68Db8sjzebFn8j6_g?e=GEmkt2)
+
+Add the model and the tokenizer to the models directory
+
+Execute the commands
+```bash
+
+    cd loaders
+    pip install scikit-learn==1.4.2
+    pip install torch
+    python -m spacy download es_core_news_sm
+    touch clinicNote.txt
+    nano clinicNote.txt
+    #paste your clinic note example
+
+    python ClassicModels_Loaders.py clinicNote.txt
+
+    #outcome
+```
