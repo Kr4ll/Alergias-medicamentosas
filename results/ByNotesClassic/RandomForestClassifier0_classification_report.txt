@@ -1,0 +1,20 @@
+              precision    recall  f1-score   support
+
+    Allergic       0.57      0.73      0.64       107
+Non allergic       0.84      0.72      0.77       210
+
+    accuracy                           0.72       317
+   macro avg       0.70      0.72      0.71       317
+weighted avg       0.75      0.72      0.73       317
+True Positives (TP): 151True Negatives (TN): 78False Positives (FP): 29False Negatives (FN): 59
+Palabras con mas influencia en el modelo RandomForestClassifier: 
+el: 0.005831016630683061 
+conocido: 0.005854880002567195 
+alerta: 0.00651757580471511 
+diclofenaco: 0.0068610122793780004 
+cefuroxima: 0.007249789902607059 
+motivo: 0.007261306115449604 
+eritema: 0.007646425008028724 
+ceftriaxona: 0.00791538493766104 
+iv: 0.009383523625680358 
+historia: 0.009434102860927582 

@@ -1,0 +1,20 @@
+              precision    recall  f1-score   support
+
+    Allergic       0.53      0.85      0.65        47
+Non allergic       0.92      0.70      0.80       121
+
+    accuracy                           0.74       168
+   macro avg       0.73      0.78      0.72       168
+weighted avg       0.81      0.74      0.76       168
+True Positives (TP): 85True Negatives (TN): 40False Positives (FP): 7False Negatives (FN): 36
+Palabras con mas influencia en el modelo  SVC: 
+no: 0.8060417892620473 
+suspender: 0.8292276209910601 
+cada: 0.8529192760843841 
+conocido: 0.8580468140569352 
+dia: 0.8669840835634006 
+alerta: 0.9014633022611122 
+400: 0.9284051639630916 
+durante: 1.002723764572533 
+episodio: 1.081651624278301 
+amoxicilina: 1.2127400955360759 

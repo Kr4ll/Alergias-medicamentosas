@@ -1,0 +1,20 @@
+              precision    recall  f1-score   support
+
+    Allergic       0.68      0.53      0.60        47
+Non allergic       0.83      0.90      0.87       121
+
+    accuracy                           0.80       168
+   macro avg       0.75      0.72      0.73       168
+weighted avg       0.79      0.80      0.79       168
+True Positives (TP): 109True Negatives (TN): 25False Positives (FP): 22False Negatives (FN): 12
+Palabras con mas influencia en el modelo GradientBoostingClassifier: 
+nolotil: 0.029820137238263517 
+diclofenaco: 0.030061739257021408 
+cefuroxima: 0.030768652671781364 
+amoxicilina: 0.03154524354162882 
+positivo: 0.03204207559715834 
+30: 0.032505319824938976 
+visipaque: 0.03513818758695562 
+habonosa: 0.03840767304220284 
+eritema: 0.05734495852733963 
+ceftriaxona: 0.06942991610571143 

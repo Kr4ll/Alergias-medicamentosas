@@ -1,0 +1,20 @@
+              precision    recall  f1-score   support
+
+           0       0.61      0.36      0.45        47
+           1       0.79      0.91      0.84       121
+
+    accuracy                           0.76       168
+   macro avg       0.70      0.64      0.65       168
+weighted avg       0.74      0.76      0.73       168
+True Positives (TP): 110True Negatives (TN): 17False Positives (FP): 30False Negatives (FN): 11
+Palabras con mas influencia en el modelo RandomForestClassifier: 
+Feature 36: 0.011113901265334958 
+Feature 199: 0.011818349687998926 
+Feature 5: 0.013194222627328786 
+Feature 99: 0.013819693435642376 
+Feature 58: 0.014368779431113105 
+Feature 159: 0.01552555094004479 
+Feature 82: 0.01636723563243426 
+Feature 40: 0.01714767970692191 
+Feature 47: 0.0172915716882709 
+Feature 178: 0.019601246209630788 

@@ -1,0 +1,20 @@
+              precision    recall  f1-score   support
+
+    Allergic       0.49      0.77      0.60        47
+Non allergic       0.88      0.69      0.77       121
+
+    accuracy                           0.71       168
+   macro avg       0.68      0.73      0.68       168
+weighted avg       0.77      0.71      0.72       168
+True Positives (TP): 83True Negatives (TN): 36False Positives (FP): 11False Negatives (FN): 38
+Palabras con mas influencia en el modelo RandomForestClassifier: 
+comenzar: 0.008745330074661729 
+ingreso: 0.008780532968889681 
+fecha: 0.009055112094733402 
+tras: 0.00913871649848914 
+metamizol: 0.009569373234687973 
+ceftriaxona: 0.00974183506562586 
+en: 0.010357170383763943 
+eritema: 0.010761517007380879 
+alerta: 0.012103375839771448 
+motivo: 0.012792218236136759 

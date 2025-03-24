@@ -1,0 +1,20 @@
+              precision    recall  f1-score   support
+
+    Allergic       0.61      0.70      0.65        47
+Non allergic       0.88      0.83      0.85       121
+
+    accuracy                           0.79       168
+   macro avg       0.74      0.76      0.75       168
+weighted avg       0.80      0.79      0.80       168
+True Positives (TP): 100True Negatives (TN): 33False Positives (FP): 14False Negatives (FN): 21
+Palabras con mas influencia en el modelo  SVC: 
+tolerado: 1.1083558992298799 
+planta: 1.1184361979871715 
+enf: 1.1728440871395907 
+cloruro: 1.206433954377301 
+recibir: 1.2234789844049165 
+no: 1.257472704868682 
+durante: 1.2758520849639081 
+levofloxacino: 1.480865995923079 
+personal: 1.5365265132586174 
+dia: 1.963315322347041 

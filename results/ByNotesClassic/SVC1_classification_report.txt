@@ -1,0 +1,20 @@
+              precision    recall  f1-score   support
+
+    Allergic       0.66      0.79      0.72       107
+Non allergic       0.88      0.79      0.83       210
+
+    accuracy                           0.79       317
+   macro avg       0.77      0.79      0.78       317
+weighted avg       0.81      0.79      0.80       317
+True Positives (TP): 166True Negatives (TN): 85False Positives (FP): 22False Negatives (FN): 44
+Palabras con mas influencia en el modelo  SVC: 
+conocido: 1.1819282893196301 
+recordar: 1.242636841102467 
+medicamentos: 1.2474959740607534 
+kua: 1.2652788997154638 
+rinoconjuntivitis: 1.3172136849008576 
+mms: 1.3306914091077984 
+ml: 1.3557810358276678 
+su: 1.4951030466667126 
+no: 1.7528956654312797 
+dia: 1.7814074454816873 

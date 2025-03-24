@@ -1,0 +1,9 @@
+              precision    recall  f1-score   support
+
+    Allergic       0.72      0.81      0.76        26
+Non allergic       0.92      0.88      0.90        67
+
+    accuracy                           0.86        93
+   macro avg       0.82      0.84      0.83        93
+weighted avg       0.87      0.86      0.86        93
+True Positives (TP): 59True Negatives (TN): 21False Positives (FP): 5False Negatives (FN): 8

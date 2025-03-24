@@ -1,0 +1,20 @@
+              precision    recall  f1-score   support
+
+    Allergic       0.59      0.28      0.38        47
+Non allergic       0.77      0.93      0.84       121
+
+    accuracy                           0.74       168
+   macro avg       0.68      0.60      0.61       168
+weighted avg       0.72      0.74      0.71       168
+True Positives (TP): 112True Negatives (TN): 13False Positives (FP): 34False Negatives (FN): 9
+Palabras con mas influencia en el modelo RandomForestClassifier: 
+fecha: 0.007132440413002849 
+ingreso: 0.007385194195925479 
+nolotil: 0.007427526820530624 
+con: 0.008647048236251153 
+iv: 0.008890888443541628 
+ceftriaxona: 0.00923985894226571 
+consulta: 0.009241232576286753 
+historia: 0.009699937022782752 
+eritema: 0.00977954223689834 
+prurito: 0.010188305384844191 

@@ -1,0 +1,20 @@
+              precision    recall  f1-score   support
+
+           0       0.46      0.64      0.54        47
+           1       0.83      0.71      0.77       121
+
+    accuracy                           0.69       168
+   macro avg       0.65      0.67      0.65       168
+weighted avg       0.73      0.69      0.70       168
+True Positives (TP): 86True Negatives (TN): 30False Positives (FP): 17False Negatives (FN): 35
+Palabras con mas influencia en el modelo GradientBoostingClassifier: 
+Feature 9: 0.019480284617336068 
+Feature 128: 0.019579453618884177 
+Feature 83: 0.019986292203798835 
+Feature 115: 0.02913048710189147 
+Feature 59: 0.030741987125354153 
+Feature 194: 0.030862719543001044 
+Feature 54: 0.03163627201699873 
+Feature 120: 0.03774834753863541 
+Feature 82: 0.05186287759165341 
+Feature 58: 0.13354466233468074 

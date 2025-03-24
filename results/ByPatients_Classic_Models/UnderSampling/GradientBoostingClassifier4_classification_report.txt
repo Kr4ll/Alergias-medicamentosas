@@ -1,0 +1,20 @@
+              precision    recall  f1-score   support
+
+    Allergic       0.50      0.66      0.57        47
+Non allergic       0.85      0.74      0.79       121
+
+    accuracy                           0.72       168
+   macro avg       0.67      0.70      0.68       168
+weighted avg       0.75      0.72      0.73       168
+True Positives (TP): 90True Negatives (TN): 31False Positives (FP): 16False Negatives (FN): 31
+Palabras con mas influencia en el modelo GradientBoostingClassifier: 
+positivo: 0.023276727926976225 
+con: 0.02462739567193127 
+cefuroxima: 0.02690668825751008 
+aas: 0.030062579530339403 
+metamizol: 0.03684846484170037 
+prurito: 0.04144525821445668 
+alerta: 0.04259596241255732 
+ceftriaxona: 0.04766253365022165 
+tras: 0.05193576468763606 
+eritema: 0.054612107669315554 
