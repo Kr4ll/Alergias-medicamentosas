@@ -33,11 +33,16 @@ In order to measure how accurate the models were working I used 3 metrics:
 -   **Classic algorithm and metrics**: sklearn
 -   **Neural network**: Keras
 -   **RoBERTa pretrained model**: Hugging face transformers library
-
-Also highligh the use of Numpy to be able to manage the vectors that served as input for the models.
+-   Also highligh the use of Numpy to be able to manage the vectors that served as input for the models.
 ---
 
 ## Hardware Used
 For the training of the models we were using an i7 8750H, 22 GB RAM and NVIDIA 1050 GPU 
 
 ---
+
+## System layout
+
+![image](https://github.com/user-attachments/assets/d3a9e75f-a968-4269-b527-bba9444be825)
+
+In a final release of the whole system, we would only use one model. The one with the best results, here we get access to almost every model trained. Those with results under 0.60<F1 are not included in the final architecture.
